@@ -1,0 +1,4 @@
+.input-data form{
+    display: flex;
+    flex-direction: row;
+}

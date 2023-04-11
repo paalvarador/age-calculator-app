@@ -1,0 +1,38 @@
+:root{
+  /***** Colors *****/
+  /***** Primary *****/
+  --color-purple: hsl(259, 100%, 65%);
+  --color-lightred: hsl(0, 100%, 67%);
+  /***** Neutral *****/
+  --color-white: hsl(0, 0%, 100%);
+  --color-offwhite: hsl(0, 0%, 94%);
+  --color-lightgrey: hsl(0, 0%, 86%);
+  --color-smokegrey: hsl(0, 1%, 44%);
+  --color-offblack: hsl(0, 0%, 8%);
+
+  /***** Typography *****/
+  --font-family: 'Poppins';
+  --font-size-long-small: 8px;
+  --font-size-small: 10px;
+  --font-size-normal: 20px;
+  --font-size-inputs: 32px;
+  --font-size-outputs: 50px;
+  --font-weight-400i: 400;
+  --font-weigth-700i: 700;
+  --font-weight-800i: 800;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: var(--color-lightgrey);
+}

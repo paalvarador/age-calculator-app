@@ -1,0 +1,13 @@
+.output-data-item{
+    display: flex;
+    font-size: var(--font-size-inputs);
+    font-weight: var(--font-weight-800i);
+    font-style: italic;
+}
+
+.value{
+    color: var(--color-purple);
+}
+.type{
+    margin-left: 0.5rem;
+}

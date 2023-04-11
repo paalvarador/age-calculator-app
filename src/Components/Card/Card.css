@@ -1,0 +1,15 @@
+.card-main{
+    background-color: var(--color-white);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border-bottom-right-radius: 6rem;
+    width: 400px;
+}
+
+/********* BREAKPOINTS ***********/
+@media only screen and (max-width: 375px) {
+    .card-main{
+        width: 340px;
+        height: 400px;
+    }
+}
